@@ -1,29 +1,25 @@
 {
-  "name": "fast-mongoose-job-queue",
-  "version": "1.0.14",
-  "description": "Simple Job-Queue using mongoosejs",
+  "name": "kt-mongoose-jobqueue",
+  "version": "1.0.3",
+  "description": "mongoose jobqueue",
   "main": "mongoose-jobqueue.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "release": "npx semantic-release",
-    "semantic-release": "semantic-release"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/khaledosman/mongoose-jobqueue.git"
+    "url": "git+https://github.com/kwan838/mongoose-jobqueue.git"
   },
   "keywords": [
-    "mongoose-jobqueue",
     "mongoose",
-    "jobqueue",
-    "queue",
-    "mongodb",
-    "nodejs",
-    "cosmosdb",
-    "jobs",
-    "azure"
+    "queue"
   ],
-  "author": "Khaled Osman <khaled.osmaan@gmail.com> (http://github.com/khaledosman)",
+  "author": "Bob Kwan <me@bobkwan.com> (https://github.com/kwan838)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwan838/mongoose-jobqueue/issues"
+  },
+  "homepage": "https://github.com/kwan838/mongoose-jobqueue#readme",
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
@@ -44,11 +40,6 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/khaledosman/mongoose-jobqueue/issues"
-  },
-  "homepage": "https://github.com/khaledosman/mongoose-jobqueue#readme",
   "peerDependencies": {
     "mongoose": ">=5.11.3"
   },
