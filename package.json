@@ -1,6 +1,6 @@
 {
   "name": "kt-mongoose-jobqueue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "mongoose jobqueue",
   "main": "mongoose-jobqueue.js",
   "scripts": {
